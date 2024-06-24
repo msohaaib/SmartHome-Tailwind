@@ -144,6 +144,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
             </svg>
             <span>Download the App</span>
+            <div class="absolute -bottom-48 -z-10 left-1/2 -translate-x-1/2 aspect-square md:border-8 border-amber-400 rounded-full md:w-80 lg:w-[25rem]"></div>
           </a>
           <img src="assets/app.svg" alt="app" width="240" class="hidden md:block drop-shadow-xl absolute left-1/2 -translate-x-1/2 max-w-[16rem] xl:max-w-xs">
       </div>
@@ -152,10 +153,18 @@
         <div class="relative">
           <input type="text" id="name" placeholder="Your Name"  class="form-input w-full border-4 border-amber-400 rounded-md focus:ring-4 dark:focus:ring-offset-2 focus:ring-amber-400 focus:border-amber-400 focus:outline-none dark:bg-amber-400 dark:text-neutral-900 placeholder:text-neutral-900 mb-6">
           <!-- <label for="name" class="text-neutral-500 text-sm font-bold uppercase absolute -top-4 left-2 -translate-y-1/2 transition-all peer-placeholder-shown:left-4 peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-neutral-900 peer-focus:-top-4 peer-focus:left-2 peer-focus:text-neutral-600 dark:peer-focus:text-neutral-300">Your Name</label> -->
-          <input type="text" id="name" placeholder="Your Email"  class="form-input w-full border-4 border-amber-400 rounded-md focus:ring-4 dark:focus:ring-offset-2 focus:ring-amber-400 focus:border-amber-400 focus:outline-none dark:bg-amber-400 dark:text-neutral-900 placeholder:text-neutral-900">
+          <input type="text" id="name" placeholder="Your Email"  class="form-input w-full border-4 border-amber-400 rounded-md focus:ring-4 dark:focus:ring-offset-2 focus:ring-amber-400 focus:border-amber-400 focus:outline-none dark:bg-amber-400 dark:text-neutral-900 placeholder:text-neutral-900 mb-6">
+          <textarea name="content" cols="20" rows="5" placeholder="How can we help?" class="form-input w-full border-4 border-amber-400 rounded-md focus:ring-4 dark:focus:ring-offset-2 focus:ring-amber-400 focus:border-amber-400 focus:outline-none dark:bg-amber-400 dark:text-neutral-900 placeholder:text-neutral-900"></textarea>
         </div>
+        <a href="#" class="py-2 px-6 bg-teal-900 text-white flex gap-2 shadow-xl hover:shadow-none justify-center w-max transition-shadow focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-md ring-offset-4 ring-offset-white dark:ring-amber-400 dark:ring-offset-neutral-900">
+          Sign up
+        </a>
       </form>
     </div>
+  </section>
+  <section aria-labelledby="footer" class="flex flex-col h-10">
+    <div class="bg-teal-900 h-0.5"></div>
+    <p class="text-center relative top-2">© 2024 Pakistan. All right Reserved</p>
   </section>
 
   <script type="module" src="/main.js"></script>
